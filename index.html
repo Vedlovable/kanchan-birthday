@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Kanchan 🌸</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-decor"></div>
+    
+    <header class="hero" id="hero">
+        <div class="hero-content fade-in-up">
+            <div class="hero-media">
+                <video autoplay loop muted playsinline class="hero-video">
+                    <source src="WhatsApp Video 2026-09-20 at 22.05.43.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="hero-text">
+                <h1 class="title">Happy Birthday,<br><span class="highlight">Kanchan</span></h1>
+                <p class="subtitle">A special day for a special girl. 🌸</p>
+                <button id="start-btn" class="glow-btn">See Our Memories</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="story" class="story hidden">
+        <h2 class="section-title reveal">Many More To Come 🌸</h2>
+        
+        <!-- 3-photo layout: center first (for mobile order), side photos wrap -->
+        <div class="photo-layout reveal">
+
+            <!-- Left: Side photo -->
+            <div class="side-photo left-photo">
+                <img src="WhatsApp Image 2026-09-18 at 10.08.20 (1).jpeg" alt="Memory 1">
+            </div>
+
+            <!-- Center: Main featured photo with flip card -->
+            <div class="center-photo-wrap">
+                <div class="flip-card" id="centerCard">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="WhatsApp Image 2026-09-18 at 10.08.20.jpeg" alt="Main Memory">
+                            <p class="click-hint">tap me 🌸</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="flip-msg">By The Way,</p>
+                            <p class="flip-msg-sub">There are many Vanshs in the sea,</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Side photo -->
+            <div class="side-photo right-photo">
+                <img src="WhatsApp Image 2026-09-18 at 10.08.21 (1).jpeg" alt="Memory 3">
+            </div>
+
+        </div>
+
+        <div class="message-section reveal">
+            <div class="message-card">
+                <p>Here's to the moments we've shared and the ones yet to come. You have this unique way of making everything brighter just by being there. Have the most wonderful birthday.</p>
+                <p class="signature">- Yours ❤️</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
